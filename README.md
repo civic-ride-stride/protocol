@@ -59,5 +59,6 @@ up as publishers join.
 
 ## Licence
 
-The text of this repository is licensed under
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [LICENSE](LICENSE).
+**Text** (rules, format, documents): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+**Code** (validators, libraries, examples): [Apache 2.0](LICENSE-APACHE), which includes a
+patent grant from every contributor. See [LICENSE](LICENSE).

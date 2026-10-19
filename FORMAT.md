@@ -23,9 +23,9 @@ it as a NIP once the shape is settled.
   "kind": "<to be chosen>",
   "tags": [
     ["d", "<series>:<h3 cell>:<window>"],
-    ["series", "ring-ring/v2-cells-2"],
+    ["series", "example-app/cells-1"],
     ["grid", "h3", "8"],
-    ["cell", "881f1d4887fffff"],
+    ["cell", "881969c9b1fffff"],
     ["window", "2015-01-01/2024-12-31", "working-day", "morning-peak"],
     ["mode", "ride"],
     ["people", "34"],
@@ -33,13 +33,15 @@ it as a NIP once the shape is settled.
     ["k", "10"],
     ["dominance", "0.5"],
     ["crop", "keyed-uniform", "50", "300", "not-at:train,ferry"],
-    ["recipe", "v2-cells-2"]
+    ["recipe", "cells-1"]
   ],
   "content": ""
 }
 ```
 
-The values above are an **illustration**, not a published figure.
+The values above are an **illustration**, not a published figure. The cell is real —
+`881969c9b1fffff`, resolution 8, around Amsterdam Centraal, computed with `h3-js`
+4.1.0 — and the publisher and the counts are invented.
 
 ## Open questions
 
