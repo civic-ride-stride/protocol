@@ -1,0 +1,14 @@
+This repository uses two licences, one for text and one for code.
+
+TEXT — the rules, the message format and every other document here — is
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0). You may share and adapt it for any purpose, provided you give
+appropriate credit, link to the licence, and indicate if changes were made.
+Full licence: https://creativecommons.org/licenses/by/4.0/legalcode
+
+CODE — any validator, library or example implementation added here — is
+licensed under the Apache License, Version 2.0, which includes a patent grant
+from every contributor. Full licence: LICENSE-APACHE in this repository, and
+https://www.apache.org/licenses/LICENSE-2.0
+
+Copyright © 2026 the CIVIC Ride & Stride contributors.
