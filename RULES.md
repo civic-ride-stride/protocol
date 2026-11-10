@@ -40,8 +40,25 @@ merged until they hold ten people.
 ## 5. Rides and strides apart
 
 Cycling (**ride**) and walking (**stride**) are counted and published
-separately. A combined figure is published only where each part clears the
-rules on its own.
+separately. A combined figure is published where **every subtraction from it
+leaves ten people or more**: take the combined figure, take away every
+published figure inside it — the strides, the rides in the smaller cells it
+contains — and whatever remains above zero has at least ten people behind it,
+for every stretch of the week the published figures can be cut into. Each
+publisher shows this with a subtraction test on its own data before its first
+publication.
+
+A publisher that runs no such test keeps to the simpler form: a combined
+figure only where the rides and the strides each have ten people behind them.
+
+> **Changed 10 November 2026.** The rule used to read: ~~*"A combined figure is
+> published only where each part clears the rules on its own."*~~ That form is
+> safe, and it protects walkers by leaving the combined figure out wherever
+> fewer than ten people walked. The new wording states what is protected —
+> whatever any subtraction leaves has ten people or more behind it — and lets
+> a test show it, cell by cell. Where walkers are few, the combined figure can
+> stand, with them hidden among the riders. The old form stays as the simpler
+> form above.
 
 ## 6. One source, one series
 
