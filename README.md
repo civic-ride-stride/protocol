@@ -11,8 +11,14 @@ publish counts that a city, a researcher or a neighbour can check.
 
 > **Status: draft.** The rules in [RULES.md](RULES.md) are settled for the
 > founding publisher. The message format in [FORMAT.md](FORMAT.md) is a
-> proposal, open for comment. **Nothing has been published under this protocol
-> yet.**
+> proposal, open for comment. ~~**Nothing has been published under this protocol
+> yet.**~~
+>
+> *10 November 2026:* **the founding publisher's first series is on its own
+> relay**, `wss://relay.ring-ring.nu`, in the shape FORMAT.md proposes: Ring-Ring's
+> V2 archive, 2015–2024, rides per street and strides per district, signed by
+> `npub1qelm78580jyv3f4m2qp4gy5pasxnp57unggzcguj22rltew3xdrsfhl9zl`
+> (*CIVIC Ride & Stride · Ring-Ring®*). Not yet on the public relays.
 
 ## In one paragraph
 

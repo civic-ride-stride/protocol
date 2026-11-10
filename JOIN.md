@@ -28,4 +28,5 @@ then publishes under its own key.
 **Your key's name: the protocol first, you second** — *CIVIC Ride & Stride ·
 <your name>*. The shared name belongs to nobody; the part after the dot says
 who vouches for the figures that key signs. The founding publisher's key reads
-*CIVIC Ride & Stride · Ring-Ring®*.
+*CIVIC Ride & Stride · Ring-Ring®*:
+`npub1qelm78580jyv3f4m2qp4gy5pasxnp57unggzcguj22rltew3xdrsfhl9zl`.
