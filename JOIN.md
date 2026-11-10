@@ -24,3 +24,8 @@ anyone publishes in it.
 
 **Later:** once the format is settled, a publisher rehearses on its own relay,
 then publishes under its own key.
+
+**Your key's name: the protocol first, you second** — *CIVIC Ride & Stride ·
+<your name>*. The shared name belongs to nobody; the part after the dot says
+who vouches for the figures that key signs. The founding publisher's key reads
+*CIVIC Ride & Stride · Ring-Ring®*.
