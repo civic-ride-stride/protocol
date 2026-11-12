@@ -35,7 +35,9 @@ readable by anyone, owned by no one.
 1. **Counts, never routes.** No trip, no trace and no person leaves a
    publisher. Only counts per cell of a uniform global grid (H3).
 2. **Ten people or nothing.** A figure with fewer than ten people behind it is
-   not published, at any resolution, in any breakdown.
+   not published, at any resolution, in any breakdown. *One exception, since 12
+   November 2026, in [RULES.md](RULES.md) rule 1: messages to a smart traffic
+   light, which carry no person, as one total per light with no time.*
 3. **The method on every number.** A figure without its recipe is a number
    nobody can check.
 4. **Open to all, sold to no one.** Anyone may read every figure. No publisher
