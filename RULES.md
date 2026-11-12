@@ -14,6 +14,17 @@ Below ten, a figure is **suppressed** or **merged** into a coarser cell or a
 longer period. Sparse places — a village lane at night — are never published.
 That is the guarantee, not a shortcoming.
 
+**One exception, written as one: messages to a smart traffic light.** *Added
+12 November 2026, by the founding publisher.* A smart traffic light (iVRI)
+receives a message when an app announces a rider approaching. The message
+carries no person, so the people behind a light cannot be counted, and this
+rule cannot be checked. A publisher may still publish, per light, **the number
+of messages as one total over its whole period, with no time breakdown at
+all**, marked `k` = `none` with the reason. The position is the light's. What
+turns a quiet light into one person's routine is time — a weekday, a part of
+the day — so any breakdown in time falls under this rule again, and messages
+cannot meet it.
+
 ## 2. No figure that is one person's routine
 
 Ten people can pass a place while one of them makes most of the trips. Where
