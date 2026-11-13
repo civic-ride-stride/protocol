@@ -1,7 +1,9 @@
 # The message format
 
-> **Status: proposal, open for comment.** Nothing below is final, and nothing
-> has been published in this shape. Comment in an issue.
+> **Status: proposal, open for comment.** Nothing below is final, ~~and nothing
+> has been published in this shape~~. *13 November 2026:* the founding
+> publisher publishes in this shape on its own relay, `wss://relay.ring-ring.nu`.
+> Comment in an issue.
 
 Figures are published on [Nostr](https://github.com/nostr-protocol/nips),
 signed by the publisher's key. Nostr is open and decentralised: anyone can read,
@@ -70,6 +72,30 @@ the counts are invented.
 is `mon` to `sun`, `weekday`, `weekend` or `week`; `from` and `to` index the
 `blocks` tag, `to` exclusive; `passages` is `null` where one person makes more
 than half of them ([rule 2](RULES.md)).
+
+## Lists, pairs and points
+
+*Added 13 November 2026, as the founding publisher's second set of series
+went out.*
+
+- **A pair is a row of its list.** An origin's destinations are rows
+  `[origin, destination, people, trips]`, every cell an H3 id; the parts under
+  ten people are one row with `other` as its destination
+  ([rule 10](RULES.md#10-what-is-hidden-is-hidden-together)). `trips` is
+  `null` where [rule 2](RULES.md#2-no-figure-that-is-one-persons-routine)
+  holds them back.
+- **A spread is shares.** Bins read `[from, to, percent]`: kilometers for
+  distance, the last bin open-ended. The trips behind them are not in the row
+  ([rule 11](RULES.md#11-a-total-stands-only-where-it-gives-nothing-back)).
+- **A series of the whole country, or of a network,** uses `all` where an area
+  would stand: `example-app/overview-1/hexes/all/1`.
+- **A point is `kind:id`** — `trein:ut`, `pont:12` — for a station, stop or
+  ferry landing. A series that names points carries a `points` tag naming the
+  series that holds them, with each point's name and place as rows
+  `[point, name, lat, lng]`. Those are public infrastructure, not people.
+- **A row's mode** is `ride`, `stride` or, for journeys, `mixed`
+  ([rule 5](RULES.md#5-rides-and-strides-apart)), in the `mode` tag of the
+  event.
 
 ## Open questions
 

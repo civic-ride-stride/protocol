@@ -32,6 +32,12 @@ Ten people can pass a place while one of them makes most of the trips. Where
 **how many people passed and nothing else**: no number of trips, no speed, no
 waiting time, no breakdown.
 
+*13 November 2026:* the same holds for **every row that counts trips** — a pair
+of zones, a station and a zone, a jump between two stations, a band of
+distance. Where one person makes more than half of its trips, the row shows its
+people only. [Rule 11](#11-a-total-stands-only-where-it-gives-nothing-back)
+keeps those trips from coming back through a total.
+
 ## 3. The ends of every trip are cut off
 
 Before anything is counted, **each end of each trip is cut** by a length drawn
@@ -61,6 +67,11 @@ publication.
 
 A publisher that runs no such test keeps to the simpler form: a combined
 figure only where the rides and the strides each have ten people behind them.
+
+*13 November 2026:* journeys — trips joined at a station, stop or ferry — add
+a third mode: the journey that rode one part and walked another. It is
+published as a mode of its own, beside rides and strides, and a combined figure
+over journeys answers to this rule for all three.
 
 > **Changed 10 November 2026.** The rule used to read: ~~*"A combined figure is
 > published only where each part clears the rules on its own."*~~ That form is
@@ -93,6 +104,48 @@ Where people report problems (an unsafe crossing, a missing path), only
 
 No publisher releases an individual route, trip or person to anyone, and no
 publisher sells exclusive access to what it publishes here.
+
+## 10. What is hidden is hidden together
+
+*Rules 10 to 13 added 13 November 2026, from the founding publisher's attack
+tests on pairs of zones, journeys, stations and distances. Each closes a way a
+figure under ten people came back out of figures that each had ten.*
+
+A figure published as **a list of parts** — an origin's destinations, a
+station's zones — shows each part that has ten people, and
+puts the rest **together in one row, `other`**. Where that row would hold fewer
+than ten people, **the smallest shown part joins it**, then the next, until it
+holds ten. Where the whole list holds fewer than ten people, the publisher keeps
+all of it back. So whatever a reader subtracts from what, a hidden part stays
+inside a group of ten.
+
+## 11. A total stands only where it gives nothing back
+
+[Rule 2](#2-no-figure-that-is-one-persons-routine) holds back a part's trips
+where one person makes most of them. A total of the parts would hand those
+trips back: the total minus the parts shown. So a list with a part held back
+under rule 2 gives its **total as people only**, and its spread — over distance,
+over time — **as shares of the trips**. People cannot be subtracted from each
+other: the same person can be in several parts.
+
+A national total of trips stands where what it leaves after every published part
+spans **at least two** parts held back, so the remainder is never one part's
+trips.
+
+## 12. A pair of zones is counted one way
+
+Pairs of zones are published **at one resolution**, and **either as directions**
+(from A to B) **or as links** (A and B, either way), one of the two. A coarse
+pair minus its fine pairs gives back the fine pairs that were hidden, and a link
+minus one direction gives back the other. The founding publisher counts
+directions, at H3 resolution 7.
+
+## 13. Shares come complete
+
+Shares that make up a whole — the parts of a day, the bands of a distance — are
+published **all together**, each part with ten people behind it, or the row
+carries none of them. One part held back while the others are shown would come
+back as one hundred minus them.
 
 ---
 
