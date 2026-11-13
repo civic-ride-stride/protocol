@@ -28,6 +28,13 @@ The event kind for this protocol is **not chosen yet** (an addressable kind,
 30000–39999), and the intent is to propose it as a NIP once the shape is
 settled. Meanwhile the founding publisher uses **30078** (NIP-78).
 
+- **The `d` tag spells the source id first:**
+  `<publisher>/<source>/<series>/<area>/<part>`. The first two parts are the
+  **source id**, required on every message
+  ([rule 6](RULES.md#6-one-source-one-series)); the last two are the area and
+  the part; what lies between is the series, which may hold a slash of its
+  own (`v2-od-1/rides`). The founding publisher's, for Amsterdam:
+  `ring-ring/v2/v2-od-1/rides/861969c9fffffff/1`. *Added 13 November 2026.*
 - **One series, one area, one event**, cut into numbered parts when the area
   is too large for one event (relays commonly take up to 64 KiB). A cell's
   rows always stay in one part.
@@ -42,7 +49,7 @@ settled. Meanwhile the founding publisher uses **30078** (NIP-78).
   "kind": 30078,
   "created_at": 1762700000,
   "tags": [
-    ["d", "example-app/cells-1/rides/861969c9fffffff/1"],
+    ["d", "example-app/app/cells-1/rides/861969c9fffffff/1"],
     ["series", "cells-1/rides"],
     ["source", "example-app", "2025", "2026"],
     ["recipe", "cells-1 k=10 rides=res10 ladder=per-day>weekday-weekend>week blocks=5,merged-to-k"],
@@ -62,7 +69,9 @@ settled. Meanwhile the founding publisher uses **30078** (NIP-78).
 }
 ```
 
-The values above are an **illustration**, not a published figure. The area
+The values above are an **illustration**, not a published figure. *13
+November 2026:* its `d` gained the source part, `example-app/app`, where it
+read `example-app/cells-1/…`. The area
 `861969c9fffffff` (resolution 6) and the cell `8a1969c9b007fff` (resolution 10)
 are real, computed with `h3` 4.x around Amsterdam Centraal; the publisher and
 the counts are invented.

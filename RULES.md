@@ -88,6 +88,25 @@ Each publisher's data is its **own series**. Different apps measure with
 different instruments, so series are shown side by side, never summed into one
 line — unless each part clears the rules on its own.
 
+**A source id on every message — required.** *Added 13 November 2026; the
+founding publisher's requirement of 10 November: "Een bron_iD voor de data is
+dan een eis."*
+
+- **What it is:** the first two parts of the message's `d` tag,
+  `<publisher>/<source>` — for the founding publisher's V2 archive,
+  `ring-ring/v2`. See [FORMAT.md](FORMAT.md).
+- **The publisher part** is the same on every message one key signs, and
+  belongs to that key alone.
+- **The source part** names one source — one app, one archive, one network of
+  counters — and is never given to another source by the same publisher.
+- **A message without a source id is not part of this protocol**, however good
+  its figures.
+
+**Sources stand beside each other.** A person who uses two apps counts once in
+each source. No publisher de-duplicates people across sources, and no figure
+adds the people of two sources into one count: that would need the very
+link between two apps' riders that this protocol keeps from existing.
+
 ## 7. A changed method is a new series
 
 When the grid, the resolution, the source, the matcher or a rule changes, the
@@ -156,6 +175,7 @@ message (see [FORMAT.md](FORMAT.md)):
 
 | Field | Example |
 |---|---|
+| Source id (required) | `ring-ring/v2` — the first two parts of `d` |
 | Publisher | `ring-ring` |
 | Source and years | `v2-archive 2015–2024` |
 | Grid and resolution | `h3 res 8` |

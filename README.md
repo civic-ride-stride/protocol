@@ -58,8 +58,9 @@ readable by anyone, owned by no one.
 **Any app or organisation with reliable walking or cycling data is welcome.**
 
 - **What you commit to:** the rules in [RULES.md](RULES.md) — at least ten
-  people per figure, hidden parts kept together, trip ends cut off, the recipe
-  on every figure, never an individual route, never resale.
+  people per figure, hidden parts kept together, trip ends cut off, **a source
+  id on every message**, the recipe on every figure, never an individual
+  route, never resale.
 - **What you get:** your counts on the shared map beside everyone else's, with
   your name on your recipe, and a series cities can plan against.
 - **How, today:** help shape the rules and the format. Open an issue, or

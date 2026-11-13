@@ -6,6 +6,8 @@ a cycling app, a walking app, a city's own counters, a research project.
 ## What you commit to
 
 - The rules in [RULES.md](RULES.md), all of them.
+- **A source id on every message**: `<your name>/<your source>`, the first two
+  parts of its `d` tag ([rule 6](RULES.md#6-one-source-one-series)). Required.
 - Your recipe on every figure you publish.
 - Your own legal basis for the data you hold, and your own data protection
   impact assessment before you publish. This protocol does not do that for you.
