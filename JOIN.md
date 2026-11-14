@@ -9,13 +9,16 @@ a cycling app, a walking app, a city's own counters, a research project.
 - **A source id on every message**: `<your name>/<your source>`, the first two
   parts of its `d` tag ([rule 6](RULES.md#6-one-source-one-series)). Required.
 - Your recipe on every figure you publish.
+- **The source id beside every figure you show**, yours and every other
+  publisher's ([rule 14](RULES.md#14-every-figure-shown-with-its-source)).
 - Your own legal basis for the data you hold, and your own data protection
   impact assessment before you publish. This protocol does not do that for you.
 
 ## What you get
 
 - Your counts on the shared map, beside everyone else's, as your own series.
-- Your name on your recipe.
+- Your name on your recipe, and your source id beside your figures wherever
+  another publisher shows them.
 - Figures cities can plan against, because they can see how each one was made.
 
 ## How

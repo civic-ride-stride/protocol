@@ -166,6 +166,30 @@ published **all together**, each part with ten people behind it, or the row
 carries none of them. One part held back while the others are shown would come
 back as one hundred minus them.
 
+## 14. Every figure shown with its source
+
+*Added 14 November 2026; the founding publisher's requirement: "Ook voor andere
+apps dat de bron_id van de melder zichtbaar blijft" — and of the two ways to
+make it so, the one that keeps the figures free of conditions ("A").*
+
+- **Where a publisher shows a figure or a report count** — on a map, in an app,
+  in a dashboard — it shows that figure's **source id** with it: its own, and
+  every other publisher's. Within one click is enough, such as a card or a
+  panel on how the figure was made. Every figure shown under this protocol can
+  be traced to its source from where it is shown.
+- **A view that combines sources** shows each source beside its own figures, as
+  [rule 6](#6-one-source-one-series) asks: one figure, one source.
+- **Everyone else is asked, not bound.** The figures carry CC0
+  ([FORMAT.md](FORMAT.md)): anyone may use them, for anything, without
+  conditions. For a reader outside this protocol — a city's own dashboard, a
+  researcher, another map — showing the source is a request. The signature
+  keeps every figure traceable all the same: whoever holds a message can check
+  which key signed it and which source id it carries.
+
+**Why:** the app that measured is credited for what it measured, a reader can
+always tell which instrument a number came from, and a city knows which
+publisher to ask about it.
+
 ---
 
 ## The recipe

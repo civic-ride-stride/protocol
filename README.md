@@ -53,14 +53,20 @@ readable by anyone, owned by no one.
 4. **Open to all, sold to no one.** Anyone may read every figure. No publisher
    sells exclusive access to what is published here.
 
+## Datasets
+
+Every series published under this protocol, and the open data of others a map
+may show beside them, each with its publisher, licence and link:
+[DATASETS.md](DATASETS.md).
+
 ## Join
 
 **Any app or organisation with reliable walking or cycling data is welcome.**
 
 - **What you commit to:** the rules in [RULES.md](RULES.md) — at least ten
   people per figure, hidden parts kept together, trip ends cut off, **a source
-  id on every message**, the recipe on every figure, never an individual
-  route, never resale.
+  id on every message** and beside every figure shown, the recipe on every
+  figure, never an individual route, never resale.
 - **What you get:** your counts on the shared map beside everyone else's, with
   your name on your recipe, and a series cities can plan against.
 - **How, today:** help shape the rules and the format. Open an issue, or
