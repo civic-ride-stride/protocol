@@ -51,8 +51,36 @@ Cycling and walking with the Ring-Ring app in the Netherlands and around it,
 
 ## Open data of others
 
-*Being checked, 14 November 2026:* each dataset's licence and link at its own
-publisher, before it is listed here. None is on a map yet.
+Candidates for layers beside the protocol's figures. **None is on a map yet.**
+Each would be a layer of its own, read from its publisher and carrying that
+publisher's credit. Every licence below was read at the publisher, or at
+data.overheid.nl, on 14 November 2026.
+
+| Dataset | Publisher | Licence | Credit required | What it adds | Link |
+|---|---|---|---|---|---|
+| Bicycle counts and count locations | NDW | CC0 1.0, NDW's terms for its open data unless a dataset says otherwise | No; NDW appreciates it | How many cyclists pass a fixed point | [docs.ndw.nu](https://docs.ndw.nu/en/producten/fietsdata/), [terms](https://docs.ndw.nu/algemeen/data-gebruiksvoorwaarden) |
+| Road works and events (Melvin) | NDW | CC0 1.0, as above | No | Planned works and closures | [opendata.ndw.nu](https://opendata.ndw.nu/) |
+| Registered road accidents (BRON) | Rijkswaterstaat | Public domain (yearly files); CC0 1.0 (*Ongevallen (RWS)*) | No | Where accidents were registered | [BRON](https://data.overheid.nl/dataset/9841-verkeersongevallen---bestand-geregistreerde-ongevallen-nederland), [Ongevallen (RWS)](https://data.overheid.nl/dataset/53580-verkeersongevallen-nederland----ongevallen--rws-) |
+| Bicycle counts, Utrecht | Gemeente Utrecht | CC0 1.0 | No | Counts at the city's own points; last updated 11 April 2022 | [data.overheid.nl](https://data.overheid.nl/dataset/utrecht-fietstellingen) |
+| Districts and neighbourhoods (Wijk- en buurtkaart 2024) | CBS | CC BY 4.0 | Yes: CBS | Borders and key figures per district and neighbourhood | [data.overheid.nl](https://data.overheid.nl/dataset/71520-wijk--en-buurtkaart-2024-versie-1) |
+| Statistics per square, 500 m and 100 m | CBS | Reuse allowed with CBS named as source; CBS's site is CC BY 4.0 | Yes: CBS | Residents and homes per square | [cbs.nl](https://www.cbs.nl/nl-nl/dossier/nederland-regionaal/geografische-data/kaart-van-500-meter-bij-500-meter-met-statistieken), [copyright](https://www.cbs.nl/nl-nl/over-ons/website/copyright) |
+| National road database (NWB) | Rijkswaterstaat | CC0 1.0 | No | The road network, with hectometre points | [data.overheid.nl](https://data.overheid.nl/dataset/14767-nwb---wegen) |
+| OpenStreetMap | OpenStreetMap Foundation and contributors | ODbL 1.0; a derived database is ODbL too | Yes: © OpenStreetMap contributors | Cycle paths, footpaths, bicycle parking | [copyright](https://www.openstreetmap.org/copyright) |
+| Hourly weather observations | KNMI | CC BY 4.0 | Yes: KNMI | The weather beside the ride counts; the API needs a key | [dataplatform.knmi.nl](https://dataplatform.knmi.nl/dataset/hourly-in-situ-meteorological-observations-validated-1-0) |
+| Public transport stops (NDOV Loket) | REISinformatiegroep | CC0, its open-data licence | No | Stops and stations | [licence](https://reisinformatiegroep.nl/ndovloket/sla) |
+| OV-fiets availability (GBFS) | NS, via openOV | CC BY-SA 3.0 NL, from the feed itself; share-alike | Yes | Bicycles available per station | [feed](https://gbfs.openov.nl/ovfiets/gbfs.json) |
+| Donkey Republic, Den Haag (GBFS) | Donkey Republic | CC0 1.0, from the feed itself | No | Shared bicycles per hub | [feed](https://stables.donkey.bike/api/public/gbfs/2/donkey_den_haag/gbfs.json) |
+
+**Checked and left out for now:**
+
+- **NS API** (stations, travel information): NS's own terms — a key, no NS
+  logo, access that can end at any time — and no open licence.
+- **CROW dashboard deelmobiliteit**: no public terms found.
+- **Fietstelweek 2015–2016**: no download or licence found.
+
+**Licences side by side.** Share-alike data (OpenStreetMap, OV-fiets) stays a
+layer of its own, with its own credit, beside the protocol's CC0 figures and
+never merged into them.
 
 ## Adding a dataset
 
