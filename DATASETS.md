@@ -27,11 +27,11 @@ Cycling and walking with the Ring-Ring app in the Netherlands and around it,
 | **Source id** | `ring-ring/v2` |
 | **Publisher** | Ring-Ring® B.V., the founding publisher |
 | **Key** | *CIVIC Ride & Stride · Ring-Ring®*, `npub1qelm78580jyv3f4m2qp4gy5pasxnp57unggzcguj22rltew3xdrsfhl9zl`, NIP-05 `civic@ring-ring.nu` |
-| **Relay** | `wss://relay.ring-ring.nu`. The public relays are the next step |
+| **Relay** | `wss://relay.ring-ring.nu`. ~~The public relays are the next step~~ *Since 15 November 2026 also `wss://relay.primal.net`, all 17,524 V2 messages; `v2-nwb-1` follows there on the founder's word* |
 | **Kind** | 30078 |
 | **Address** | `d` = `ring-ring/v2/<series>/<area>/<part>`, for example `ring-ring/v2/v2-overview-1/totals/all/1` |
 | **Licence** | CC0-1.0, on every message |
-| **Published** | once, 10–13 November 2026; a changed method becomes a new series ([rule 7](RULES.md#7-a-changed-method-is-a-new-series)) |
+| **Published** | once, 10–13 November 2026; the NWB crosswalk `v2-nwb-1` on 19 November 2026. A changed method becomes a new series ([rule 7](RULES.md#7-a-changed-method-is-a-new-series)) |
 | **On a map** | [portal.ring-ring.nu/nl/open-data](https://portal.ring-ring.nu/nl/open-data) ([English](https://portal.ring-ring.nu/en/open-data)) |
 
 | Series | What a row holds | Messages |
@@ -47,14 +47,18 @@ Cycling and walking with the Ring-Ring app in the Netherlands and around it,
 | `v2-places-1` | the name and position of every station, stop or ferry landing named above | 1 |
 | `v2-overview-1` | per mode the country's people, trips, kilometers and journeys; people per hexagon of about 250 km² | 3 |
 | `v2-commute-1` | per mode and distance band, the shares of trips in the commuting window, the rest of the working day and the weekend | 1 |
-| | **Together** | **17,524** |
+| `v2-nwb-1` segments | per published street cell, the Dutch national road database's segments through it: `wvk_id`, the metres of the segment inside the cell, the kind of way (`bst_code`) and the street. Geometry against geometry, built only over cells published above, so no figure about people. NWB edition 2026-11-19, read from PDOK; a later edition is a new series | 2,608 |
+| | **Together** | **20,132** |
 
 ## Open data of others
 
-Candidates for layers beside the protocol's figures. **None is on a map yet.**
-Each would be a layer of its own, read from its publisher and carrying that
-publisher's credit. Every licence below was read at the publisher, or at
-data.overheid.nl, on 14 November 2026.
+Candidates for layers beside the protocol's figures. ~~**None is on a map yet.**~~
+*Since 18 November 2026 two are: the shared vehicles below, behind a button on
+the open-data map, and the NWB, read for the crosswalk `v2-nwb-1` and to find a
+road segment by its id.* Each is a layer of its own, read from its publisher and
+carrying that publisher's credit. Every licence below was read at the publisher,
+or at data.overheid.nl, on 14 November 2026; the shared-vehicle feeds on 19
+November 2026.
 
 | Dataset | Publisher | Licence | Credit required | What it adds | Link |
 |---|---|---|---|---|---|
@@ -68,8 +72,13 @@ data.overheid.nl, on 14 November 2026.
 | OpenStreetMap | OpenStreetMap Foundation and contributors | ODbL 1.0; a derived database is ODbL too | Yes: © OpenStreetMap contributors | Cycle paths, footpaths, bicycle parking | [copyright](https://www.openstreetmap.org/copyright) |
 | Hourly weather observations | KNMI | CC BY 4.0 | Yes: KNMI | The weather beside the ride counts; the API needs a key | [dataplatform.knmi.nl](https://dataplatform.knmi.nl/dataset/hourly-in-situ-meteorological-observations-validated-1-0) |
 | Public transport stops (NDOV Loket) | REISinformatiegroep | CC0, its open-data licence | No | Stops and stations | [licence](https://reisinformatiegroep.nl/ndovloket/sla) |
+| Shared vehicles: the catalogue of feeds (GBFS) | MobilityData | — | — | Which operators publish a GBFS feed, and where; every Dutch row as of 16 October 2026, 52 feeds | [systems.csv](https://github.com/MobilityData/gbfs/blob/master/systems.csv) |
 | OV-fiets availability (GBFS) | NS, via openOV | CC BY-SA 3.0 NL, from the feed itself; share-alike | Yes | Bicycles available per station | [feed](https://gbfs.openov.nl/ovfiets/gbfs.json) |
-| Donkey Republic, Den Haag (GBFS) | Donkey Republic | CC0 1.0, from the feed itself | No | Shared bicycles per hub | [feed](https://stables.donkey.bike/api/public/gbfs/2/donkey_den_haag/gbfs.json) |
+| Donkey Republic (GBFS), 11 Dutch feeds | Donkey Republic | CC0 1.0, from the feeds read (Den Haag, Amsterdam) | No | Shared bicycles per hub | [Den Haag](https://stables.donkey.bike/api/public/gbfs/2/donkey_den_haag/gbfs.json), [Amsterdam](https://stables.donkey.bike/api/public/gbfs/3.0/donkey_am/gbfs.json) |
+| Check (GBFS), 22 Dutch feeds | Check Technologies | None stated in the feed (Almere read) | Named on the map | Shared scooters and mopeds | [Almere](https://api.ridecheck.app/gbfs/v3/almere/gbfs.json) |
+| Felyx (GBFS), 7 Dutch feeds | Cooltra, as the feed names itself | None stated in the feed (Amsterdam read) | Named on the map | Shared mopeds | [Amsterdam](https://maas.zeus.cooltra.com/gbfs/amsterdam/3.0/en/gbfs.json) |
+| Cykl (GBFS) | Cykl | None stated in the feed | Named on the map | Shared bicycles | [feed](https://www.cykl.nl/gbfs/gbfs.json) |
+| GoAbout (GBFS) | GoAbout | None stated in the feed | Named on the map | Shared vehicles | [feed](https://gbfs.goabout.com/2/gbfs.json) |
 
 **Checked and left out for now:**
 
